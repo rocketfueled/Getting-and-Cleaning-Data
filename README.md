@@ -15,3 +15,8 @@ run_analysis.R will:
 5.name the activities in the dataset
 
 6.tidy the data and clean it further
+
+The incldued files:
+
+Dataset.txt is the initial output without further tidying
+Tidydata.text is final output after tidying
