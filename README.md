@@ -19,4 +19,5 @@ run_analysis.R will:
 The incldued files:
 
 Dataset.txt is the initial output without further tidying
+
 Tidydata.text is final output after tidying
