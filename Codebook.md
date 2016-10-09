@@ -16,6 +16,7 @@ Average      | Average of each variable for each activity and each subject
 
 Dataset structure
 -----------------
+```
 Classes ‘data.table’ and 'data.frame':	11880 obs. of  11 variables:
  $ subject     : int  1 1 1 1 1 1 1 1 1 1 ...
  $ activity    : Factor w/ 6 levels "LAYING","SITTING",..: 1 1 1 1 1 1 1 1 1 1 ...
@@ -30,18 +31,18 @@ Classes ‘data.table’ and 'data.frame':	11880 obs. of  11 variables:
  $ average     : num  -0.0166 -0.0645 0.1487 -0.8735 -0.9511 ...
  - attr(*, "sorted")= chr  "subject" "activity" "Domain" "Acceleration" ...
  - attr(*, ".internal.selfref")=<externalptr> 
-
+```
 
 List the key variables in the data table
 ----------------------------------------
-
+```
 [1] "subject"      "activity"     "Domain"       "Acceleration" "Instrument"  
 [6] "Jerk"         "Magnitude"    "Variable"     "Axis"
-
+```
 
 Show a few rows of the dataset
 ------------------------------
-
+```
        subject         activity Domain Acceleration    Instrument Jerk Magnitude Variable Axis count     average
     1:       1           LAYING   Time           NA     Gyroscope   NA        NA     Mean    X    50 -0.01655309
     2:       1           LAYING   Time           NA     Gyroscope   NA        NA     Mean    Y    50 -0.06448612
@@ -54,11 +55,11 @@ Show a few rows of the dataset
 11878:      30 WALKING_UPSTAIRS   Freq         Body Accelerometer Jerk        NA       SD    Z    65 -0.78475388
 11879:      30 WALKING_UPSTAIRS   Freq         Body Accelerometer Jerk Magnitude     Mean   NA    65 -0.54978489
 11880:      30 WALKING_UPSTAIRS   Freq         Body Accelerometer Jerk Magnitude       SD   NA    65 -0.58087813
-
+```
 
 Summary of variables
 --------------------
-
+```
     subject                   activity     Domain      Acceleration          Instrument     Jerk          Magnitude    Variable   
  Min.   : 1.0   LAYING            :1980   Time:7200   NA     :4680   Accelerometer:7200   NA  :7200   NA       :8640   Mean:5940  
  1st Qu.: 8.0   SITTING           :1980   Freq:4680   Body   :5760   Gyroscope    :4680   Jerk:4680   Magnitude:3240   SD  :5940  
@@ -73,3 +74,4 @@ Summary of variables
  Z :2880   Mean   :57.22   Mean   :-0.48436  
            3rd Qu.:63.25   3rd Qu.:-0.07836  
            Max.   :95.00   Max.   : 0.97451  
+```
